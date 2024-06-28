@@ -11,12 +11,12 @@ const LeftM = () => {
           <div className="flex items-center space-x-3">
             <span className="text-2xl font-bold">Senior Product Designer</span>
             <div className="w-1 h-1 bg-[#989c9a] rounded-full mr-2"></div>
-            <span className="opacity-70">posted 2 days ago</span>
-            <button className="px-4 py-1 bg-[#ECFDF3] border-[1px] border-[#ABEFC6] text-[#067647] rounded-full flex items-center ">
-              <div className="w-2 h-2 bg-[#17B26A] rounded-full mr-2"></div>Open
+            <span className="opacity-70 text-sm">posted 2 days ago</span>
+            <button className="px-2 py-1 bg-[#ECFDF3] border-[1px] border-[#ABEFC6] text-[#067647] rounded-full flex items-center text-xs">
+              <div className="w-2 h-2 bg-[#17B26A] rounded-full mr-[6px] "></div>Open
             </button>
           </div>
-          <div className="mt-4 flex space-x-9 text-[15px] text-[#2c2c2cf1] font-sans">
+          <div className="mt-4 flex space-x-9 text-[15px] text-[#5D5D5D] font-sans font-semibold">
             <span className="flex items-center ">
               <CiLocationOn className="mr-1" /> Delaware, USA
             </span>
@@ -28,50 +28,50 @@ const LeftM = () => {
         </div>
 
         <div className="pl-20 flex border-b-[1px] pt-4 pb-6 justify-between font-sans pr-80">
-          <div className="flex flex-col text-sm">
+          <div className="flex flex-col ">
             <span className=" mb-2">Skills Required</span>
-            <span className=" w-max flex items-center px-2 py-1 border-[1px] rounded-md border-slate-400 ">
+            <span className=" w-max flex items-center px-2 py-1 border-[1px] text-xs font-semibold rounded-md border-slate-400 ">
               <Image
                 src="/figma.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"
-                className="w-5 h-5 mr-1"
+                className="w-4 h-4 mr-1"
               />
               Figma
             </span>
-            <span className=" w-max flex items-center px-2 py-1 border-[1px] rounded-md my-2 border-slate-400 ">
+            <span className=" w-max flex items-center px-2 py-1 border-[1px] rounded-md my-2 border-slate-400 text-xs font-semibold ">
               <Image
                 src="/illustrator.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"
-                className="w-5 h-5 mr-1"
+                className="w-4 h-4 mr-1"
               />
               Adobe Illustrator
             </span>
-            <span className=" w-max flex items-center px-2 py-1 border-[1px] rounded-md border-slate-400 ">
+            <span className=" w-max flex items-center px-2 py-1 border-[1px] rounded-md border-slate-400 text-xs font-semibold ">
               <Image
                 src="/xd.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"
-                className="w-5 h-5 mr-1"
+                className="w-4 h-4 mr-1"
               />
               Adobe XD
             </span>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col ">
             Prefered language
-            <span className="font-bold">English</span>
+            <span className="font-[700]">English</span>
           </div>
           <div className="flex flex-col">
             Type
-            <span className="font-bold">Full Time</span>
+            <span className="font-[700]">Full Time</span>
           </div>
           <div className="flex flex-col">
             years of expirence
-            <span className="font-bold">3+ years of expirience</span>
+            <span className="font-[700]">3+ years of expirience</span>
           </div>
         </div>
 
@@ -106,13 +106,13 @@ const LeftM = () => {
 
         <div class="pl-20 pb-6 bg-white shadow-md rounded-lg font-sans py-6">
           <div class="flex items-center space-x-4 mb-6">
-          <Image
-                src="/atla.png"
-                width={100}
-                height={100}
-                alt="Picture of the author"
-                className="w-8 h-8 mr-1"
-              />
+            <Image
+              src="/atla.png"
+              width={100}
+              height={100}
+              alt="Picture of the author"
+              className="w-8 h-8 mr-1"
+            />
             <h1 class="font-[500] text-[#4F4F4F] text-[20px]">Atlassian</h1>
           </div>
           <div class="grid grid-cols-2 gap-4">
