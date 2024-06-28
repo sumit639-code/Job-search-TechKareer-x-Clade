@@ -10,7 +10,7 @@ import Image from "next/image";
 const header = () => {
   return (
     <>
-      <div className="flex items-center justify-between my-5 mx-6">
+      <div className="flex items-center justify-between my-3 mx-6">
         <div className="border-solid border-2 px-6 py-2 bg-[#E7E7E7] text-[#DC4A2D] font-poppins font-[700]">
           Logo
         </div>

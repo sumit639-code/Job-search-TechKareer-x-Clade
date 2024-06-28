@@ -63,15 +63,15 @@ const LeftM = () => {
           </div>
           <div className="flex flex-col ">
             Prefered language
-            <span className="font-[700]">English</span>
+            <span className="font-[700] text-[#3D3D3D]">English</span>
           </div>
           <div className="flex flex-col">
             Type
-            <span className="font-[700]">Full Time</span>
+            <span className="font-[700] text-[#3D3D3D]">Full Time</span>
           </div>
           <div className="flex flex-col">
             years of expirence
-            <span className="font-[700]">3+ years of expirience</span>
+            <span className="font-[700] text-[#3D3D3D]">3+ years of expirience</span>
           </div>
         </div>
 
