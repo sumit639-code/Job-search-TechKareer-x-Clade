@@ -10,7 +10,7 @@ https://figma.com/design/1PsDL6m6lgnCK9Fs6x1fUX/Job-preview-dashboard
 
 And this is my design screenshot
 
-![screenshot](/public/screenshot.jpeg)
+![screenshot](/public/screenshot.png)
 
 
 And the code is been Upload you can check the code and styling
