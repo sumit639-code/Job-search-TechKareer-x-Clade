@@ -1,3 +1,5 @@
+const { Poppins } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -11,6 +13,14 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      fontFamily: {
+        satoshi: ['"Satoshi Variable"'],
+        roboto:['"Roboto","sans-serif"'],
+        Rubik:['"Rubik"'],
+        Poppins:['"Poppins"'],
+        General :['"General sans"']
+        // Add more custom font families as needed
       },
     },
   },
